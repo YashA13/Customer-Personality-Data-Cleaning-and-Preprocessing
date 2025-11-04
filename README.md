@@ -1,3 +1,4 @@
 # Customer-Personality-Data-Cleaning-and-Preprocessing
 DataLab Internship Data Cleaning and Preprocessing Task
+
 In this dataset, I used pandas to analyze the datatype,format, and any inconsistencies that occured. First, I checked the names of the columns and understood what they represented. Based on this, I changed some of the column names to make it clearer and more understandable as to what data it represents. Next, I checked for any invalid data, looking for any null values or any potential duplicates. Some datapoints contained Null values, so I removed those points(instead of replacing them with an average value) since only a small number of points(24/2240) contained NULLS. The data had no duplicates, so nothing else had to be removed. Lastly, I looked at the datatype of each column. I made sure that qualitative values such as education were string datatypes. Lastly, I made sure the date formatting was consistent with all the datapoints.
